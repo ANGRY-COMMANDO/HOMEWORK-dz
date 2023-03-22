@@ -13,10 +13,16 @@
 }
 
 .brick {
-    min-height: 80px;
-    min-width: 150px;
-    border:double 2px black;
+    min-height: 100px;
+    min-width: 50px;
+    border:3px solid #FFF;
+    flex-basis: 100px;
 
+}
+
+.brick:nth-child(2n)
+{
+    flex-grow: 1;
 }
 
 .color-aqua {
@@ -28,42 +34,8 @@
     background-color: yellow;
 
 }
-.color-pink {
+.color-magenta {
    
-    background-color: pink;
+    background-color: magenta;
 
-}
-.b1 {
- 
-    min-width: 120px;
-    border: double 3px black;
-}
-.b2 {
-    
-    border: double 3px black;
-}
-.b3 {
-    min-width: 60px;
-    border: double 3px black;
-}
-.b4 {
-    min-width: 120px;
-    border: double 3px black;
-
-}
-.b5 {
-    min-width: 90px;
-    border: double 3px black;
-}
-.b6 {
-    min-width: 120px;
-    border: double 3px black;
-}
-.b7 {
-    min-width: 95px;
-    border: double 3px black;
-}
-.b8 {
-    min-width: 260px;
-    border: double 3px black;
 }
